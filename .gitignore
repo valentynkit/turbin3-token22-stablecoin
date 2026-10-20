@@ -1,0 +1,6 @@
+/target
+/programs/target
+
+# solana-test-validator ledger, if you run one locally
+/test-ledger
+/.ledger

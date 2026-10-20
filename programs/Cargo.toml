@@ -1,0 +1,5 @@
+# Built with cargo build-sbf, kept out of the host crate so its lockfile
+# and features stay independent.
+[workspace]
+members = ["delegate-pull", "spl-record"]
+resolver = "2"

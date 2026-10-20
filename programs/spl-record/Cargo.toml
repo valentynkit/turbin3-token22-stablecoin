@@ -1,0 +1,14 @@
+[package]
+name = "spl-record-program"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+# Rebuilds the upstream spl-record program (with its entrypoint) so LiteSVM
+# can load it. Confidential transfers with fees stage their range proof in a
+# record account because it does not fit in one transaction.
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+spl-record = "0.4.0"

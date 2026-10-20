@@ -1,0 +1,33 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.30s
+     Running unittests src/lib.rs (target/debug/deps/token22_stablecoin-6355f93d701be0a6)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/cpi_guard.rs (target/debug/deps/cpi_guard-2660879ff9934359)
+
+running 1 test
+test extension_cpi_guard_blocks_owner_cpi_but_not_delegate ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.08s
+
+     Running tests/stablecoin.rs (target/debug/deps/stablecoin-1dda2322964d0b5f)
+
+running 7 tests
+test task3_state_read_through_state_with_extensions ... ok
+test task5_reissued_mint_adds_delegate_and_confidential_extensions ... ok
+test task4_new_accounts_frozen_until_kyc_thaw ... ok
+test task1_mint_with_stacked_extensions_metadata_and_close ... ok
+test task2_transfer_fee_follows_the_clock_epoch ... ok
+test finding_confidential_balance_escapes_seizure_but_not_freeze ... ok
+test task6_confidential_lifecycle_and_public_seizure ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 4.87s
+
+   Doc-tests token22_stablecoin
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
